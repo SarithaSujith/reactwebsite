@@ -1,0 +1,34 @@
+.navbar {
+	background-color: black;
+	width: 100%;
+	height: 15vh;
+	display: flex;
+	justify-content: space-around;
+}
+.navbar .leftside img {
+	width: 100%;
+	height: 95%;
+	padding: 0;
+}
+.navbar .rightside {
+	margin: 30px 5px;
+}
+.navbar .rightside a {
+	padding: 10px 10px;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: coral;
+}
+.navbar .rightside a:hover {
+	color: cornsilk;
+}
+@media only screen and (max-width: 800px) {
+	.navbar .rightside a {
+		width: 70px;
+	}
+	.navbar .rightside {
+		padding-left: 50px;
+	}
+}
